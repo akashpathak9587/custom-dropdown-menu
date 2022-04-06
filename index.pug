@@ -1,0 +1,43 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title custom select
+        link(rel="stylesheet", href="./css/main.css")
+        script(src="./js/script.js" defer) 
+    body 
+        .container 
+            h2 Video Category
+             
+            .select-box 
+                .options-container
+                    .option 
+                        input#automobiles.radio(type="radio", name="category")
+                        label(for="automobiles") Automobiles
+                    .option 
+                        input#film.radio(type="radio", name="category")
+                        label(for="film") Film & Animation
+                    .option 
+                        input#science.radio(type="radio", name="category")
+                        label(for="science") Science & Technology 
+                    .option 
+                        input#art.radio(type="radio", name="category")
+                        label(for="art") Art
+                    .option 
+                        input#music.radio(type="radio", name="category")
+                        label(for="music") Music
+                    .option 
+                        input#travel.radio(type="radio", name="category")
+                        label(for="travel") Travels & Events
+                    .option 
+                        input#sports.radio(type="radio", name="category")
+                        label(for="sports") Sports
+                    .option 
+                        input#news.radio(type="radio", name="category")
+                        label(for="news") News & Politics
+                    .option 
+                        input#tutorials.radio(type="radio", name="category")
+                        label(for="tutorials") Tutorials
+                .selected Select Video Category
